@@ -1,4 +1,4 @@
-package com.petstore.dto;
+package com.petstore.pet.dto;
 
 public class ApiResponse {
     private int code;

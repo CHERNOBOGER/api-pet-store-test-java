@@ -1,6 +1,6 @@
-package com.petstore.dto;
+package com.petstore.pet.dto;
 
-public class Tag {
+public class Category {
     private Long id;
     private String name;
 
@@ -23,7 +23,7 @@ public class Tag {
 
     @Override
     public String toString() {
-        return "Tag{" +
+        return "Category{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

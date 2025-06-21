@@ -1,6 +1,6 @@
-package com.petstore.api;
+package com.petstore.pet.api;
 
-import com.petstore.dto.Pet;
+import com.petstore.pet.dto.Pet;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
