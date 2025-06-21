@@ -172,7 +172,7 @@ class PetApiTest {
         Pet pet = new Pet();
                  //это убирает отрицательные числа и ограничивет до миллиона
         pet.setId(Math.abs(new Random().nextLong() % 1000000L));
-        pet.setName("TestPet_" + new String(String.valueOf(new Random().nextInt())));
+        pet.setName("TestPet_" + String.valueOf(new Random().nextInt()));
 
         Category category = new Category();
         // категории я рукописными, но если что:
